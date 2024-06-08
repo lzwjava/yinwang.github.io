@@ -45,6 +45,9 @@ jobs:
       - name: Update Jekyll Welcome Post Date
         run: |
           sed -i "s/<%= Time.now.strftime('%Y-%m-%d %H:%M:%S %z') %>/$(date '+%Y-%m-%d %H:%M:%S %z')/" vendor/bundle/ruby/3.1.0/gems/jekyll-3.9.3/lib/site_template/_posts/0000-00-00-welcome-to-jekyll.markdown.erb
+      - name: Check for Liquid syntax errors
+        run: |
+          find . -name "*.html" -o -name "*.md" -o -name "*.liquid" | xargs grep -n "{% when" && exit 1 || exit 0
       - name: Build with Jekyll
         # Outputs to the './_site' directory by default
         run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
