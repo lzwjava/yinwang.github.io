@@ -1,4 +1,6 @@
-# Blog Posts
+# Yin Wang's Blog Posts
+
+Translated from [yinwang.org](https://www.yinwang.org).
 
 - [CS Course 5](./_posts/2023-12-23-cs-course-5.md)
 - [Advance and Concurrent Computing Focused Workshop](./_posts/2022-12-12-continuation-course.md)
