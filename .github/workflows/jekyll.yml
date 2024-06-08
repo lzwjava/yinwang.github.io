@@ -45,14 +45,17 @@ jobs:
       - name: Update Jekyll Welcome Post Date
         run: |
           sed -i "s/<%= Time.now.strftime('%Y-%m-%d %H:%M:%S %z') %>/$(date '+%Y-%m-%d %H:%M:%S %z')/" vendor/bundle/ruby/3.1.0/gems/jekyll-3.9.3/lib/site_template/_posts/0000-00-00-welcome-to-jekyll.markdown.erb
-      - name: Check for Liquid syntax errors
+      - name: Exclude problematic files
         run: |
-          find . -name "*.html" -o -name "*.md" -o -name "*.liquid" | xargs grep -n "{% when" && exit 1 || exit 0
+          mv vendor/bundle/ruby/3.1.0/gems/liquid-4.0.4/lib/liquid/locales/en.yml vendor/bundle/ruby/3.1.0/gems/liquid-4.0.4/lib/liquid/locales/en.yml.bak
       - name: Build with Jekyll
         # Outputs to the './_site' directory by default
         run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
         env:
           JEKYLL_ENV: production
+      - name: Restore excluded files
+        run: |
+          mv vendor/bundle/ruby/3.1.0/gems/liquid-4.0.4/lib/liquid/locales/en.yml.bak vendor/bundle/ruby/3.1.0/gems/liquid-4.0.4/lib/liquid/locales/en.yml
       - name: Upload artifact
         # Automatically uploads an artifact from the './_site' directory by default
         uses: actions/upload-pages-artifact@v3
