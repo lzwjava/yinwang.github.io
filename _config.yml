@@ -1,0 +1,45 @@
+title: Yin Wang
+email: yinwang0@gmail.com
+description: >-
+  truth freedom love
+baseurl: ""
+url: "https://yinwang.github.io"
+
+tagline: truth freedom love
+
+author:
+  name: Yin Wang
+  twitter: yinwang0
+
+twitter:
+  username: yinwang0
+  card: summary_large_image
+
+social:
+  name: Yin Wang
+  links:
+    - https://twitter.com/yinwang0
+
+theme: jekyll-theme-cayman
+
+google_analytics: "UA-xxx"
+
+permalink: /:title
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+exclude:
+  - sync_*
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+
+markdown: kramdown
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+ssl_certificate: false
