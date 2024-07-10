@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "I. Machine and Human Visual Ability Gap (1)"
+title: "Machine and Human Visual Ability Gap (1)"
 ---
 
 

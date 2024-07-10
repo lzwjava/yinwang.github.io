@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "I. Scheme Programming Environment Setup"
+title: "Scheme Programming Environment Setup"
 ---
 
 

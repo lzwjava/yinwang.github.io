@@ -1,32 +1,129 @@
-# yinwang.github.io
+# Yin Wang's Blog Posts
 
-```shell
-gem install jekyll bundler
+Translated from [yinwang.org](https://www.yinwang.org).
 
-jekyll new myblog
-
-cd myblog
-
-bundle install
-
-bundle exec jekyll serve
-
-bundle add webrick
-
-jekyll serve
-```
-
-```shell
-
-rougify help style
-
-rougify style github > _sass/syntax.css
-
-rougify style gruvbox.dark > _sass/syntax.css
-
-rougify style base16.monokai.dark > _sass/syntax.css
-```
-
-Refer:
-
-https://mcpride.github.io/posts/development/2018/03/06/syntax-highlighting-with-jekyll/
+- [CS Course 5](./_posts/2023-12-23-cs-course-5.md)
+- [Advance and Concurrent Computing Focused Workshop](./_posts/2022-12-12-continuation-course.md)
+- [Myopia](./_posts/2022-02-22-myopia.md)
+- [Advanced CS Course](./_posts/2022-02-22-advanced-cs-course.md)
+- [Reading Course](./_posts/2022-02-07-reading-course.md)
+- [Youth CS Student](./_posts/2021-09-16-youth-cs-student.md)
+- [Super-Human-Level Vision](./_posts/2021-07-29-super-human-level-vision.md)
+- [Title: Ground-Up Computer Science](./_posts/2021-05-11-gucs-sample.md)
+- [CS4](./_posts/2021-05-10-cs4.md)
+- [Why is the Cello so Hard to Learn?](./_posts/2021-04-16-cello-technique.md)
+- [I. Computer Science Reading Class (Experiment)](./_posts/2021-02-16-cs-reading-course.md)
+- [CS3](./_posts/2021-02-15-cs3.md)
+- [CS Class 2](./_posts/2020-09-24-cs-class2.md)
+- [American English Problems](./_posts/2020-05-23-american-english-problems.md)
+- [One-on-One Teaching Plan](./_posts/2020-04-30-individualized-learning.md)
+- [Entry-Level Class](./_posts/2020-03-26-entry-level-class.md)
+- [Doubts About Intelligence](./_posts/2020-03-23-wisdom-of-intelligence.md)
+- [English Learning Experiences](./_posts/2020-03-06-english-learning-tips.md)
+- [CS Course](./_posts/2020-03-03-cs-course.md)
+- [Java Type System](./_posts/2020-02-13-java-type-system.md)
+- [How to Read Other People's Code](./_posts/2020-02-05-how-to-read-code.md)
+- [Compilers](./_posts/2019-12-24-compilers.md)
+- [Autopilot Responsibility](./_posts/2019-09-30-autopilot-responsibility.md)
+- [Machine vs Human 3](./_posts/2019-09-16-machine-vs-human-3.md)
+- [Machine vs Human 2](./_posts/2019-09-15-machine-vs-human-2.md)
+- [Machine and Human Visual Ability Gap (1)](./_posts/2019-09-14-machine-vs-human.md)
+- [Talk is Not Cheap](./_posts/2019-09-11-talk-is-not-cheap.md)
+- [About Microkernel Dialogue](./_posts/2019-08-19-microkernel.md)
+- [PNP2](./_posts/2019-07-21-pnp2.md)
+- [Wisdom in Learning](./_posts/2019-07-12-learning-philosophy.md)
+- [Grammar](./_posts/2018-11-23-grammar.md)
+- [Mystery Computer Science](./_posts/2018-04-13-computer-science.md)
+- [Smart Contract](./_posts/2018-02-22-smart-contract.md)
+- [The Fog in Chengdu](./_posts/2018-02-16-chengdu-pollution.md)
+- [Genius](./_posts/2017-11-11-genius.md)
+- [Words](./_posts/2017-11-05-words.md)
+- [Albgo Zero and Strong Artificial Intelligence](./_posts/2017-11-04-alphago-zero.md)
+- [Rational Power](./_posts/2017-11-01-power-of-reasoning.md)
+- [Body Science](./_posts/2017-10-16-ergonomics.md)
+- [Traveling Wisely](./_posts/2017-08-14-travel-wisdom.md)
+- [Living Philosophy](./_posts/2017-07-08-living-philosophy.md)
+- [Bringing a Cat Home from Abroad](./_posts/2017-07-06-cat-travel-china.md)
+- [How to Master All Programming Languages](./_posts/2017-07-06-master-pl.md)
+- [DSL (Domain Specific Language) Misconceptions](./_posts/2017-05-25-dsl.md)
+- [I. Kotlin and Checked Exceptions](./_posts/2017-05-23-kotlin.md)
+- [Practical Idealism](./_posts/2017-05-17-practical-idealism.md)
+- [Artificial Intelligence Limitations](./_posts/2017-04-23-ai.md)
+- [Extensive Experience and Insight](./_posts/2017-04-14-experience-and-insight.md)
+- [IDisposable Interface in C#](./_posts/2016-10-13-c-sharp-disposable.md)
+- [Compiler Bug](./_posts/2016-10-12-compiler-bug.md)
+- [Rust](./_posts/2016-09-18-rust.md)
+- [Tests](./_posts/2016-09-14-tests.md)
+- [Tesla's Autopilot Caused Fatal Accident](./_posts/2016-07-10-tesla-autopilot-fatal-crash.md)
+- [Harm of Health Shows](./_posts/2016-06-28-yangsheng.md)
+- [Does Java Have Value Types?](./_posts/2016-06-08-java-value-type.md)
+- [Swift Language Design Flaw](./_posts/2016-06-06-swift.md)
+- [Misconceptions of Positive Thinking](./_posts/2016-05-22-positive-thinking.md)
+- [Voluntary Paid Methods for Blog Posts](./_posts/2016-04-13-pay-blog.md)
+- [Self-Driving Car Liability](./_posts/2016-03-19-self-driving-car-liability.md)
+- [Alpha-Go](./_posts/2016-03-09-alpha-go.md)
+- [Self-Driving Car](./_posts/2016-02-12-self-driving-car.md)
+- [Giving Java a Fair Statement](./_posts/2016-01-18-java.md)
+- [Tesla Autopilot](./_posts/2016-01-10-tesla-autopilot.md)
+- [Tesla Model X Door Design Issues](./_posts/2015-12-21-tesla-model-x.md)
+- [Programming Intelligence](./_posts/2015-11-21-programming-philosophy.md)
+- [Turing's Aura](./_posts/2015-10-18-turing.md)
+- [Misunderstandings About Parser](./_posts/2015-09-19-parser.md)
+- [Mathematics and Programming](./_posts/2015-07-04-math.md)
+- [Speaking of a Program's Correctness](./_posts/2015-07-02-program-correctness.md)
+- [Principle Mistakes of DRY](./_posts/2015-06-14-dry-principle.md)
+- [Alluded to as Software Engineering](./_posts/2015-06-07-software-engineering.md)
+- [Object-Oriented Programming (OOP)](./_posts/2015-04-03-paradigms.md)
+- [Accent](./_posts/2015-03-21-accent.md)
+- [Trap of Intelligence](./_posts/2015-03-20-trap-of-intelligence.md)
+- [The Importance of Design](./_posts/2015-03-17-design.md)
+- [About Git's Etiquette](./_posts/2015-03-11-git-etiquette.md)
+- [How to Respect a Programmer](./_posts/2015-03-03-how-to-respect-a-programmer.md)
+- [Alluded to as 'Human Errors'](./_posts/2015-02-24-human-errors.md)
+- [Other People's Bugs](./_posts/2015-02-20-other-peoples-bug.md)
+- [A Isn't Great, I Suppose You Mean B Then?](./_posts/2015-02-01-creative-thinking.md)
+- [Gratuity and Chinese Dignity](./_posts/2015-01-19-tips.md)
+- [Interstellar](./_posts/2014-11-12-interstellar.md)
+- [The Essence of Relational Models](./_posts/2014-04-24-relational.md)
+- [Golang](./_posts/2014-04-18-golang.md)
+- [An Interview Video About Dijkstra](./_posts/2014-02-18-dijkstra-interview.md)
+- [Programmer's Psychological Disease](./_posts/2014-02-09-programmer-mental.md)
+- [PL Tool](./_posts/2014-02-04-pl-tool.md)
+- [A Ruby Static Analyzer Named RubySonar](./_posts/2014-01-28-rubysonar.md)
+- [I and the Story of Authority](./_posts/2014-01-04-authority.md)
+- [Pysonar2-SG](./_posts/2013-11-25-pysonar2-sg.md)
+- [Church and Turing](./_posts/2013-07-13-church-turing.md)
+- [Reason and Proof](./_posts/2013-04-26-reason-and-proof.md)
+- [Editor and IDE](./_posts/2013-04-20-editor-ide.md)
+- [Language Design Mistake 2](./_posts/2013-04-18-language-design-mistake2.md)
+- [About Language Pondering](./_posts/2013-04-17-languages.md)
+- [Yoda Notation](./_posts/2013-04-16-yoda-notation.md)
+- [Several Cool Professional Terminologies](./_posts/2013-04-15-terminology.md)
+- [Standard Exam Language](./_posts/2013-04-14-standard-exam-language.md)
+- [Markdown Issues](./_posts/2013-04-14-markdown.md)
+- [A New Type of Operating System Design](./_posts/2013-04-14-os-design.md)
+- [Speaking of a Program's 'Generality'](./_posts/2013-04-13-generality.md)
+- [What is Inspiration](./_posts/2013-04-12-inspiration.md)
+- [Scheme Programming Environment Setup](./_posts/2013-04-11-scheme-setup.md)
+- [Why Did I Leave Cornell](./_posts/2013-04-10-cornell.md)
+- [Test-Driven Development (TDD)](./_posts/2013-04-07-test-driven-dev.md)
+- [Limitation of Currying](./_posts/2013-04-02-currying.md)
+- [Lazy Evaluation](./_posts/2013-04-01-lazy-evaluation.md)
+- [Hindley-Milner](./_posts/2013-04-01-hindley-milner.md)
+- [Purely Functional](./_posts/2013-03-31-purely-functional.md)
+- [What is a 'Scripting Language'?](./_posts/2013-03-29-scripting-language.md)
+- [Chez Scheme](./_posts/2013-03-28-chez-scheme.md)
+- [Lisp is Dead, Long Live Lisp!](./_posts/2013-03-26-lisp-dead-alive.md)
+- [Tools](./_posts/2013-03-24-tools.md)
+- [Eliminate Problems](./_posts/2013-03-19-eliminate-problems.md)
+- [Language Design Mistake 1](./_posts/2013-03-15-language-design-mistake1.md)
+- [On Syntax](./_posts/2013-03-08-on-syntax.md)
+- [About Linux, Windows, and Mac](./_posts/2013-03-07-linux-windows-mac.md)
+- [Oberon Operating System: The Overlooked Jewel](./_posts/2013-03-07-oberon.md)
+- [Decrypting 'Design Patterns'](./_posts/2013-03-07-design-patterns.md)
+- [Braid](./_posts/2013-03-04-braid.md)
+- [Texmacs](./_posts/2012-09-18-texmacs.md)
+- [How to Write an Interpreter](./_posts/2012-08-01-interpreter.md)
+- [What is Semantics?](./_posts/2012-07-25-semantics.md)
+- [GTF - Great Teacher Friedman](./_posts/2012-07-04-dan-friedman.md)
+- [What is User-Friendly?](./_posts/2012-05-18-user-friendliness.md)
